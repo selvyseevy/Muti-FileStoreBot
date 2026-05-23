@@ -6,7 +6,7 @@ from datetime import datetime, timezone, timedelta
 import pyrogram.utils
 
 # Set minimum channel ID to support newer channels
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1003958346402
 
 # Force UTF-8 encoding for Windows terminals to support emojis
 if sys.stdout.encoding != 'utf-8':
