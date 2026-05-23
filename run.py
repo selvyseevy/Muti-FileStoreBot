@@ -25,15 +25,15 @@ def validate_config():
     """Validate that all required config values are set."""
     errors = []
     if not API_ID or API_ID == 0:
-        errors.append("API_ID is not set")
+        errors.append("30322849")
     if not API_HASH:
-        errors.append("API_HASH is not set")
+        errors.append("2a8d13c1d6ce82476411f003b6922e47")
     if not BOT_TOKEN:
-        errors.append("BOT_TOKEN is not set")
+        errors.append("8873669749:AAFHF8ny0xuufuRoNOmrBf8Hly_8jAxImaQ)
     if not OWNER_ID or OWNER_ID == 0:
-        errors.append("OWNER_ID is not set")
+        errors.append("8480922250")
     if not MONGO_URI:
-        errors.append("MONGO_URI is not set")
+        errors.append("mongodb+srv://akdanimes_97:akdanimes_97@cluster0.5e3ojhb.mongodb.net/?appName=Cluster0")
 
     if errors:
         for err in errors:
