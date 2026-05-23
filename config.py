@@ -10,20 +10,20 @@ from logging.handlers import RotatingFileHandler
 # =============================================================================
 
 # Telegram API credentials from https://my.telegram.org
-API_ID = int(os.environ.get("API_ID", ""))
+API_ID = int(os.environ.get("API_ID", "30322849"))
 APP_ID = API_ID # Alias for backward compatibility
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "2a8d13c1d6ce82476411f003b6922e47")
 #@cantarellabots
 # Main controller bot token from @BotFather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8873669749:AAFHF8ny0xuufuRoNOmrBf8Hly_8jAxImaQ")
 TG_BOT_TOKEN = BOT_TOKEN # Alias for backward compatibility
 #@cantarellabots
 # Owner's Telegram user ID (numeric)
-OWNER_ID = int(os.environ.get("OWNER_ID", "5756495153"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8480922250"))
 
 # MongoDB connection URI
-MONGO_URI = os.environ.get("MONGO_URI", "")
-MONGO_DB_NAME = os.environ.get("MONGO_DB_NAME", "cantarellabots")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://akdanimes_97:akdanimes_97@cluster0.5e3ojhb.mongodb.net/?appName=Cluster0")
+MONGO_DB_NAME = os.environ.get("MONGO_DB_NAME", "Cluster0")
 DB_URI = MONGO_URI    # Alias for old bot.py
 DB_NAME = MONGO_DB_NAME # Alias for old bot.py
 
@@ -31,11 +31,11 @@ DB_NAME = MONGO_DB_NAME # Alias for old bot.py
 CHANNEL_ID = 0
 
 # Central log channel for logging bot creations and generated links
-MAIN_LOG_CHANNEL = int(os.environ.get("MAIN_LOG_CHANNEL", ""))
+MAIN_LOG_CHANNEL = int(os.environ.get("MAIN_LOG_CHANNEL", "-1003958346402"))
 
 # Force-subscribe channel for the main bot (username without @)
-FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "cantarellabots") 
-
+FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "AKDfilestorex_Bot") 
+# Owner's Telegram user ID (numeric)
 # =============================================================================
 # ENCRYPTION — Used to secure bot tokens in the database
 # =============================================================================
